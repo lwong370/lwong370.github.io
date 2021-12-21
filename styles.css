@@ -1,0 +1,163 @@
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    list-style-type: none;
+    float: right;
+    line-height: 60px;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background: #262626;
+    text-align: center;
+}
+
+.wrapper{
+    width: 1170px;
+    /* margin: auto; */
+}
+
+.logo{
+    width: 30%;
+    float: left;
+    line-height: 100px;
+    color:white;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+li{
+    display: inline-block;
+}
+
+.social-menu ul li{
+    list-style: none;
+    margin: 10px;
+    margin-top: -5%;
+}
+
+.social-menu ul li .fab{
+    font-size: 30px;
+    color: black;
+    line-height: 60px;
+}
+
+.social-menu ul li .fab:hover{
+    opacity: 0.5;
+}
+
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #B1D8B7;
+    text-align: center;
+}
+
+.about-me{
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-me .image{
+    flex-basis: 70%;
+    padding-left: 20px;
+}
+
+.about-me .image img{
+    height: 450px;
+    width: 320px;
+    border: 5px solid rgb(184, 151, 4);
+    padding: 10px 15px;
+}
+
+.about-me .text{
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 10%;
+}
+
+h3{
+    font-size: 40px;
+    text-transform: capitalize;
+    color:black;
+    font-family:'Times New Roman';
+}
+
+.skills{
+    padding-top: 35px;
+    padding-right: 3%;
+    text-align: center;
+}
+
+.skills h3{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.skills .skill-list ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-basis: 60%;
+}
+
+.skills li:before {
+    content: "\26AC";
+    color: #B1D8B7;
+}
+
+.skills li{
+    display: inline;
+    font-size: 20px;
+}
+
+.featured-projects {
+    padding-top: 35px;
+}
+
+.featured-projects h3 {
+    text-align: left;
+    padding-left: 20px;
+}
+
+a {
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.project-list {
+    display:flex;
+    flex-direction: row;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+.project-list figure{
+    margin: auto;
+}
+
+.project-list figure img {
+    height: 300px;
+    width: 300px;
+}
