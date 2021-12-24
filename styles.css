@@ -57,6 +57,10 @@ li{
     opacity: 0.5;
 }
 
+.img-link:hover {
+    opacity: 0.5;
+}
+
 .social-menu ul li a{
     position: relative;
     display: block;
@@ -151,18 +155,18 @@ a {
     font-size: 25px;
 }
 
-.project-list {
+.horizontal-flex {
     display:flex;
     flex-direction: row;
     margin-top: 5%;
     flex-wrap: wrap;
 }
 
-.project-list figure{
+.horizontal-flex figure{
     margin: auto;
 }
 
-.project-list figure img {
+.horizontal-flex figure img {
     height: 300px;
     width: 300px;
 }
@@ -225,7 +229,7 @@ a {
 .vertical-content-list .sub-listing{
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 85%;
     padding-top: 3%;
 }
 
